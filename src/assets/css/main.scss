@@ -1,0 +1,59 @@
+@import "./partials/navbar";
+@import "./partials/home";
+@import "./partials/button";
+@import "./partials/footer";
+@import "./partials/resume";
+@import "./partials/projects";
+@import "./partials/contact";
+h1,
+h2,
+h3,
+h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#root {
+  background-color: #f3f3f3;
+}
+
+*::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+.catamaran {
+  font-family: "Catamaran", sans-serif;
+}
+.alegreya {
+  font-family: "Alegreya Sans", sans-serif;
+}
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+.f-bold {
+  font-weight: 900;
+}
+.f-regular {
+  font-weight: 400;
+}
+.f-light {
+  font-weight: 200;
+}
+.list-unstyled {
+  list-style-type: none;
+}
+.heading-large {
+  font-size: 3rem;
+}
+.heading-xlarge {
+  font-size: 6rem;
+}
+.btn {
+  background-color: transparent;
+  border: none !important;
+  cursor: pointer;
+}
+.text-red {
+  color: red;
+}

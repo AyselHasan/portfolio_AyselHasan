@@ -1,0 +1,29 @@
+.contact {
+  width: 75%;
+  height: 92vh;
+  margin: 0 auto;
+  padding: 40px;
+}
+.contact-inp {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000;
+  margin-top: 5px;
+}
+#textarea {
+  border: 1px solid #000;
+  resize: none;
+  width: 100%;
+}
+.submit {
+  background-color: transparent;
+  padding: 27px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+.submit:hover {
+  background-color: #046f9c;
+  border: 1px solid #046f9c;
+  color: white;
+  transition: 1s;
+}

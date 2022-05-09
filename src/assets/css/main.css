@@ -1,0 +1,243 @@
+.navbar {
+  width: 100%;
+  height: 8vh;
+  background-color: #f3f3f3;
+}
+
+.navbar .nav-content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.navbar .nav-content .nav-brand {
+  font-size: 1.5rem;
+  color: #000 !important;
+}
+
+.navbar .nav-content .nav-box {
+  width: 25px;
+  height: 25px;
+  background: #046f9c;
+  background: -webkit-gradient(linear, right top, left top, color-stop(15%, #046f9c), color-stop(76%, #7bd2f7));
+  background: linear-gradient(270deg, #046f9c 15%, #7bd2f7 76%);
+  border-radius: 100%;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  font-size: 15px;
+}
+
+.nav-btn:hover {
+  color: #865412;
+  background-color: transparent !important;
+  -webkit-box-shadow: rgba(134, 84, 18, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+          box-shadow: rgba(134, 84, 18, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+#home {
+  height: 92vh;
+  width: 100%;
+}
+
+#home .home-inner {
+  padding: 20px;
+}
+
+#home .home-inner .resume-photo img {
+  max-width: 70%;
+  border-radius: 100%;
+}
+
+#resume {
+  background-color: #c1e8f8 !important;
+}
+
+#resume:hover {
+  background-color: #a3a3a3 !important;
+  color: white !important;
+  border: 1px solid #a3a3a3;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#projects {
+  background-color: #7bd2f7 !important;
+}
+
+#projects:hover {
+  background-color: #636363 !important;
+  border: 1px solid #636363;
+  color: white !important;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#contact {
+  background-color: #046f9c !important;
+}
+
+#contact:hover {
+  background-color: black !important;
+  color: white !important;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.buttons .h-btn {
+  width: 80px;
+  height: 80px;
+  color: #000;
+  margin-right: 20px;
+  border-radius: 100%;
+  border: 1px solid #202020;
+}
+
+@media only screen and (max-width: 415px) {
+  .buttons .h-btn {
+    width: 65px;
+    height: 65px;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-top: 1px solid gray;
+}
+
+.resume {
+  padding: 40px;
+}
+
+.resume .resume-inner {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.resume {
+  padding: 40px;
+}
+
+.projects-inner {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.project-inner {
+  padding: 20px;
+}
+
+.project-img {
+  padding: 20px;
+}
+
+.project-img img {
+  max-width: 80% !important;
+}
+
+.contact {
+  width: 75%;
+  height: 92vh;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.contact-inp {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #000;
+  margin-top: 5px;
+}
+
+#textarea {
+  border: 1px solid #000;
+  resize: none;
+  width: 100%;
+}
+
+.submit {
+  background-color: transparent;
+  padding: 27px;
+  border-radius: 100%;
+  border: 1px solid #000;
+}
+
+.submit:hover {
+  background-color: #046f9c;
+  border: 1px solid #046f9c;
+  color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#root {
+  background-color: #f3f3f3;
+}
+
+*::-moz-selection {
+  background-color: #000;
+  color: #fff;
+}
+
+*::selection {
+  background-color: #000;
+  color: #fff;
+}
+
+.catamaran {
+  font-family: "Catamaran", sans-serif;
+}
+
+.alegreya {
+  font-family: "Alegreya Sans", sans-serif;
+}
+
+.pacifico {
+  font-family: "Pacifico", cursive;
+}
+
+.f-bold {
+  font-weight: 900;
+}
+
+.f-regular {
+  font-weight: 400;
+}
+
+.f-light {
+  font-weight: 200;
+}
+
+.list-unstyled {
+  list-style-type: none;
+}
+
+.heading-large {
+  font-size: 3rem;
+}
+
+.heading-xlarge {
+  font-size: 6rem;
+}
+
+.btn {
+  background-color: transparent;
+  border: none !important;
+  cursor: pointer;
+}
+
+.text-red {
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

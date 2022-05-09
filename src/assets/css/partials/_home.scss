@@ -1,0 +1,14 @@
+
+#home {
+  height: 92vh;
+  width: 100%;
+  .home-inner {
+    padding: 20px;
+    .resume-photo {
+      img {
+        max-width: 70%;
+        border-radius: 100%;
+      }
+    }
+  }
+}
